@@ -5,8 +5,8 @@ class Folly < Formula
   head "https://github.com/facebook/folly.git", branch: "main"
 
   stable do
-    url "https://github.com/facebook/folly/archive/refs/tags/v2026.03.02.00.tar.gz"
-    sha256 "f2a9bbd4bd36256d4554f9917fcefa9ec356cec637d2a743e01a6a1d569224dc"
+    url "https://github.com/facebook/folly/archive/refs/tags/v2026.03.09.00.tar.gz"
+    sha256 "126b10954c75f5f10f7c061c56ae066d55d3a587455e9650e869d24691dc8226"
 
     # Backport fix for arm64 Linux duplicate symbol errors
     patch do
